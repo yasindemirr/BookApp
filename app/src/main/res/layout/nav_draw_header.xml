@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/toolbar_backround">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_16sdp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Book"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/white"
+                android:textStyle="bold|normal"
+                >
+            </TextView>
+        </LinearLayout>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/books"
+            app:shapeAppearanceOverlay="@style/Circular"
+            android:padding="@dimen/_4sdp"
+            app:strokeColor="@color/teal_700">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

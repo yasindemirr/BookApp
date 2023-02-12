@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Library"
+        android:icon="@drawable/menubook"
+        android:id="@+id/libraryFragment"
+        >
+    </item>
+    <item
+        android:title="Category"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:id="@+id/categoryFragment"
+        >
+    </item>
+    <item
+        android:title="Other"
+        >
+        <menu>
+            <item
+                android:title="Exit"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:id="@+id/exitFrom">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>
